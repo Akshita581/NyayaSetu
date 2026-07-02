@@ -156,7 +156,6 @@ export const recordOpen = async (id) => {
     const response = await api.patch(`/history/${id}/open`);
     return response.data;
 };
-
 export const findNearbyHelp = async (locationData) => {
     const response = await api.post('/legal/nearby-help', locationData);
     return response.data;

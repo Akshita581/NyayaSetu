@@ -425,7 +425,6 @@ const VoiceInput = ({ caseId, sessionId, history, language, onUploadSuccess, onU
                             className="w-full h-[40px] rounded-lg"
                         />
                     </div>
-
                     <div className="flex items-center justify-between gap-4 w-full md:w-auto shrink-0 bg-slate-900/40 px-4 py-2.5 rounded-xl border border-slate-800/50">
                         <div className="flex items-center gap-2.5 text-xs text-slate-400 font-semibold tracking-wide">
                             <span className="relative flex h-2 w-2 shrink-0">
