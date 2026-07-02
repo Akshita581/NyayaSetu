@@ -248,7 +248,7 @@ const Dashboard = () => {
                                                     element.click();
                                                     document.body.removeChild(element);
                                                 }}
-                                                className="p-2 border border-slate-200 hover:bg-slate-50 text-slate-500 hover:text-slate-800 rounded-xl transition-colors"
+                                                className="p-2 border border-slate-200 hover:bg-slate-50 text-slate-550 hover:text-slate-800 rounded-xl transition-colors"
                                                 title="Download Extracted Text"
                                             >
                                                 <Download className="w-4 h-4" />
@@ -268,7 +268,7 @@ const Dashboard = () => {
                                                         }
                                                     }
                                                 }}
-                                                className="p-2 border border-slate-200 hover:bg-red-50 text-slate-500 hover:text-red-600 rounded-xl transition-colors"
+                                                className="p-2 border border-slate-200 hover:bg-red-50 text-slate-550 hover:text-red-655 rounded-xl transition-colors"
                                                 title="Delete from History"
                                             >
                                                 <Trash2 className="w-4 h-4" />
